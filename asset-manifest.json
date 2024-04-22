@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.d85f444c.css",
-    "main.js": "/static/js/main.0cd893b1.js",
-    "static/js/453.67b4544d.chunk.js": "/static/js/453.67b4544d.chunk.js",
-    "static/media/Cat astronaut (2).gif": "/static/media/Cat astronaut (2).e90ccf76fa45c53739c0.gif",
-    "static/media/Cat astronaut (3).gif": "/static/media/Cat astronaut (3).97b2a3fca6bc0b22c570.gif",
-    "static/media/alien planet-pana.png": "/static/media/alien planet-pana.36607a8336fe3d22bb85.png",
-    "static/media/magictree.svg": "/static/media/magictree.f6914be10bf6c66f308f241a7a097a0c.svg",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.d85f444c.css.map": "/static/css/main.d85f444c.css.map",
-    "main.0cd893b1.js.map": "/static/js/main.0cd893b1.js.map",
-    "453.67b4544d.chunk.js.map": "/static/js/453.67b4544d.chunk.js.map"
+    "main.css": "/movie-explore/static/css/main.077f426e.css",
+    "main.js": "/movie-explore/static/js/main.632ef543.js",
+    "static/js/453.67b4544d.chunk.js": "/movie-explore/static/js/453.67b4544d.chunk.js",
+    "static/media/Cat astronaut (2).gif": "/movie-explore/static/media/Cat astronaut (2).e90ccf76fa45c53739c0.gif",
+    "static/media/Cat astronaut (3).gif": "/movie-explore/static/media/Cat astronaut (3).97b2a3fca6bc0b22c570.gif",
+    "static/media/alien planet-pana.png": "/movie-explore/static/media/alien planet-pana.36607a8336fe3d22bb85.png",
+    "static/media/magictree.svg": "/movie-explore/static/media/magictree.f6914be10bf6c66f308f241a7a097a0c.svg",
+    "static/media/logo.svg": "/movie-explore/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/movie-explore/index.html",
+    "main.077f426e.css.map": "/movie-explore/static/css/main.077f426e.css.map",
+    "main.632ef543.js.map": "/movie-explore/static/js/main.632ef543.js.map",
+    "453.67b4544d.chunk.js.map": "/movie-explore/static/js/453.67b4544d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d85f444c.css",
-    "static/js/main.0cd893b1.js"
+    "static/css/main.077f426e.css",
+    "static/js/main.632ef543.js"
   ]
 }
