@@ -1,0 +1,585 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&family=Syncopate&display=swap');
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+p{
+    font-family: "Mitr", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+h2,h3,h4,h5,button,label,span{
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    overflow-y: hidden;
+}
+
+.bgContainer{
+    background-image: url('./assets/alien planet-pana.png');
+    position: fixed;
+    margin-top: 0px;
+    background-size: 100vw auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    bottom: 0vh;
+}
+.hero{
+    display: flex;
+    padding:1%;
+    position: relative;
+    height: auto;
+    background-size:fill;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* background-color: white;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2); */
+
+    width: auto;
+    border-radius: 2rem;
+    margin: auto;
+    
+    font-size: xx-large;
+    .mascot{
+        height: 90%;
+    }
+    
+}
+.inputContainer{
+    background-color: #92E3A9;
+    max-width: 40vw;
+    border-radius: 1.2rem;
+}
+.MuiFormControl-root,.MuiFilledInput-root{
+    background-color: transparent;
+  
+   
+
+}
+.searchPageCont{
+    .inputContainer{
+        height:5vh;
+        margin-left: 3vw;
+        display: flex  ;
+        justify-content: center;
+        padding-bottom: 1vh;
+        position: relative;
+        z-index: 101;
+        box-shadow: none;
+       
+    }
+}
+.searchAbout{
+    
+    font-size: medium;
+    margin-bottom: -1vh;
+    
+}
+.bestGuess{
+    background-color: #AE7461;
+    border-radius: 1.5rem;
+    height:70vh;
+    width: 30vw;
+    font-size: large;
+    position: absolute;
+    padding:.5% 1.5%;
+    margin:auto; 
+    margin-left: 3vw;
+    margin-top: 10vh;
+   
+    
+}
+.guessTitle{
+    font-size: large;
+    display: flex;
+    align-items:flex-start;
+    max-height: 10vh;
+    height: auto;
+    justify-content: baseline;
+    margin-bottom: 1vh;
+    padding:1%;
+    .highlight{
+
+        color:#92E3A9;
+    }
+}
+
+.guessDetails{
+    max-width: 20vw;
+    display: grid;
+    max-height: 40vh;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1vw;
+    margin: auto;
+    
+}
+.seeMore{
+    background-color: #92E3A9;
+    width: 7vw;
+    height: 14vh;
+    object-fit: contain;
+    border-radius: .5rem;
+    font-size: smaller;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        svg{
+            font-size: 5rem;
+            color:#AE7461;
+            margin: auto;
+            height: auto;
+        }
+    
+}
+.seeMore p{
+    margin: auto;
+    position: relative;
+    top: -2vh;
+    text-align: center;
+
+}
+.guessPoster{
+    border-radius: .5rem;
+    max-height: 60vh;
+    width: auto;
+    object-fit: cover;
+    margin: auto;
+    height: auto;
+    width: auto;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+.suggPoster img{
+    width: auto;
+    max-width: 15vw;
+    height: 30vh;
+    object-fit: contain;
+}
+.suggestionsGrid{
+    display: grid;
+
+    grid-template-columns: repeat(auto-fill, minmax(5vw, 15vw));
+    grid-gap: 1rem;
+    padding: 1%;
+}
+.suggestions{
+    width: 50vw;
+    min-height: 85vh;
+    max-height: 95vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    list-style: none;
+    
+    margin: auto;
+    margin-left: 45vw;
+    position: relative;
+    scrollbar-width: thin;
+    scrollbar-color: #92E3A9 transparent;
+    li{
+        max-width: 10vw;
+        list-style: none;
+
+    }
+}
+.searchSuggs{
+    display: fixed;
+    z-index: 101;
+    width: 99vw;
+    background-color: transparent;
+}
+.searchMascot{
+    height:auto;
+    width: 30vw;
+    position: sticky;
+    bottom: 0vh;
+    z-index: -1;
+}
+.picks{
+    display: inline-flex;
+    max-height: 70vh;
+    float:left;
+    h2{
+        font-family: "Syncopate", sans-serif;
+        font-weight: 300;
+    }
+}
+.moviePrev{
+    height:10vh; 
+    width:20vw;
+    object-fit: cover;
+    opacity: 0.5;
+    border-radius: .5rem;
+    margin: auto; 
+}
+.suggSum{
+    font-size: large;
+    max-width: 40vw;
+    margin: auto;
+    height: auto;
+    max-height: 70vh;
+    margin-top: 0vh;
+    display: flex;
+    margin-left:3vw;
+    p{
+        margin-top: 0vh;
+    }
+    
+}
+.findDetailsBtn{
+    background-color: #92E3A9;
+    border-color: transparent;
+    max-width: 20vw;
+    padding: 1%;
+    font-size: medium;
+    border-radius: 1.2rem;
+
+}
+
+.suggContent{
+    height:auto; 
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -5vh;
+    left: 20vw;
+    width: 25vw;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    -ms-transform-origin-x: 79vh;
+    z-index: 99;
+    overflow-y: scroll;
+    max-height: 95vh;
+    svg{
+        font-size: 2.5rem;
+        color:#92E3A9;
+    
+    }
+    
+    
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    border-color: none;
+}
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+.suggContent::-webkit-scrollbar {
+    width: 8px;
+
+
+}
+:focus {
+    outline: none;
+}
+
+.hidden{
+    display:none;
+}
+.stepProgress{
+    position: absolute;
+    background-color: transparent !important;
+    bottom:10vh;
+    top: 25vh;
+    left: 14vw;
+    
+    height: 2vw;
+    width: 40vh;
+    text-align: center;
+    margin: auto; 
+}
+.stepperButton{
+    margin: auto; 
+    position: relative;
+    svg{
+        font-size: 5rem;
+        color:#92E3A9
+    }
+
+}
+.carouselImage{
+    height:60vh;
+    width: 22vw;
+    border-radius: .8rem;
+    object-fit: cover;
+    margin: auto; 
+    transition: opacity 0.5s ease-in-out;
+
+}
+.drawer{
+    max-height: 40vh;
+}
+.sourcesCont{
+    height: 40vh;
+    max-width: 40vw;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: -5vh !important;
+}
+.sources{
+    border-radius: 1rem;
+    height: 10vh;
+    overflow-y: visible;
+    list-style: none;
+    display: block;
+    margin-right: 0 !important;
+    width: 30vw;
+    text-align: left;
+    margin-top: -3vh !important;
+    li{
+        display: inline-block;
+        width: 8vw;
+        padding: 1%;
+        height: auto;
+        text-align: left;
+        color:#92E3A9 !important;
+       
+    }
+}
+.picksCont{
+    width: 80vw;
+    margin: auto;
+    
+}
+.sourceDetails{
+    margin-left:5px !important;
+    width: 12vw;
+    word-wrap: break-word;
+
+}
+
+.plot{
+    max-height: 25vh;
+    height: auto;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #92E3A9 transparent;
+}
+.movieTitle{
+    margin: auto;
+    font-size: x-large;
+    img{
+        object-fit: cover;
+        object-position: center;
+        background-position: center;
+        width: 25vw;
+        height: 70vh;
+        border-radius: .5rem;
+        margin:auto; 
+
+    }
+}
+.movieDetails{
+    width:100%;
+    min-height: 70vh;
+    max-height: 80vh;
+    height: auto;
+    border-radius: 2rem;
+    color:#92E3A9 !important;
+    margin:auto;
+    background-size: cover;
+    background-position: center;
+    p,h2,h1{
+        padding:.5%;
+        max-width: 40vw;
+    }
+}
+.movieInfo{
+    min-height: 70vh;
+    max-height: 79vh;
+    height: auto;
+}
+.MuiDrawer-paper{
+    background: #1E1E1E !important;
+    padding: 1%;
+    overflow: hidden !important;
+    width:85vw;
+    margin:auto;
+    border-radius: 2rem;
+    
+    margin-bottom: 1vh;
+}
+.Mui-expanded{
+    max-height: 20vh;
+    height: auto !important;
+   
+}
+
+.MuiAccordion-root{
+    background-color: #AE7461 !important;
+
+    max-width: 15vw;
+    height: auto;
+    max-height: 20vh;
+    font-size: .9em !important;
+    padding:1%;
+    :link,:hover,:visited,:active,:focus{
+        text-decoration: none;
+        color:#FFFEEB!important;
+
+    }
+    
+    
+    
+
+}
+.logo{
+    width: 4vw;
+    height: auto;
+    object-fit: contain;
+    border-radius: .5rem;
+}
+.sourceDetails{
+    
+    height: 5vh;
+    font-size: small;
+    h2{
+        font-size: medium ;
+        margin: auto 0px;
+    }
+}
+.types{
+    white-space: nowrap;
+    display: flex;
+    flex-direction: row;
+}
+.sourceDetails p{
+    font-size: small !important;
+    margin: auto 0px;
+    word-wrap: break-word;
+ 
+   
+    white-space: pre-wrap;
+
+}
+.MuiAccordionSummary-content{
+    max-height: 8vh;
+    margin:auto; 
+    margin-top: 0vh !important;
+    position: relative;
+    z-index: 99 !important;
+}
+.sources{
+    .MuiPaper-root{
+        /* max-height: 10vh; */
+        margin:auto; 
+    }
+}
+
+.MuiAccordionSummary-content{
+    margin:auto;
+  
+    
+}
+.movieDetails .col{
+    margin:auto; 
+}
+.movieDetails p{
+    font-size: 1.4rem;
+}
+
+.decoTree{
+    height: 25vh;
+    width: auto;
+    object-fit: contain;
+    position: relative;
+    z-index: 99;
+    float:right; 
+    margin-right:-2vw !important;
+}
+.glassContainer{
+    border-radius: 1rem;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.6px);
+-webkit-backdrop-filter: blur(5.6px);
+    border: 1px solid rgba(255, 255, 255, 0.41);
+    text-shadow: .5px .5px .5px rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+}
+.MuiModal-backdrop{
+    background: transparent !important;
+    
+}
+.MuiDrawer-paper{
+    box-shadow: none !important;
+}
+h1{
+    font-family: "Syncopate", sans-serif;
+    font-weight: 400;
+}
+.MuiInputBase-root{
+    height: auto;
+    width: 30vw;
+    margin:auto;
+    height: 6vh;
+    box-shadow: none;
+    background-color: transparent;
+}
+.MuiAutocomplete-popper{
+    height:90vh !important;
+    margin-top: 1vh;
+    overflow-y: scroll;
+    font-size: large !important;
+
+}
+.hero h1{
+    font-size: 5em;
+    max-width: 60vw;
+    text-align: center; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+.hero{
+    .col{
+        margin: auto;
+    }
+   
+}
+.MuiFilledInput-underline{
+    text-decoration: none !important;
+    border-bottom: none !important;
+}
+.header{
+    button{
+        background: transparent;
+        border: none;
+        margin-left: 2.5vw;
+    }
+}
+.hero{
+    .MuiFormControl-root,.MuiFilledInput-root{
+        width: 30vw;
+        height: 90% !important;
+        padding:-5%;
+        background-color: transparent;
+        border-radius: 1rem;
+        border-bottom: transparent;
+        margin:auto; 
+        
+    }
+
+}
+.hero{
+    .inputContainer{
+        margin:auto; 
+        margin-left: 10vw;
+    }
+}
+

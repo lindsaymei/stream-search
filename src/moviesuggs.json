@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Severence",
+        "services": ["AppleTv"],
+        "summary": "S1 E1: Welcome to Hell- Mark leads a team of office workers whose memories have been surgically divided between their work and personal lives. When a mysterious colleague appears outside of work, it begins a journey to discover the truth about their jobs.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjkwZjcwMGQtNDAzOC00YjJiLThiYTgtNWU3ZjRiZmY2YzEzXkEyXkFqcGdeQXVyMTMzNDExODE5._V1_.jpg",
+        "id": "1592806",
+        "imbd":"tt11280740"
+    },
+    {
+        "name": "Happy Together (春光乍洩)",
+        "services": ["Max", "Paramount+","Youtube"],
+        "summary": "A couple take a trip to Argentina but both men find their lives drifting apart in opposite directions.",
+        "poster": "https://upload.wikimedia.org/wikipedia/en/d/d1/Happy_Together_poster.jpg",
+        "id": "1158745",
+        "imbd":"tt0118845"
+    },
+    {
+        "name": "Get Out",
+        "services": ["Sling TV", "fuboTV","Hulu"],
+        "summary": "A young African-American visits his white girlfriend's parents for the weekend, where his simmering uneasiness about their reception of him eventually reaches a boiling point.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjUxMDQwNjcyNl5BMl5BanBnXkFtZTgwNzcwMzc0MTI@._V1_.jpg",
+        "id": "1146471",
+        "imbd":"tt5052448"
+    },
+    {
+        "name": "Jujutsu Kaisen 0",
+        "services": ["CrunchyRoll", "Amazon Prime"],
+        "summary": "The prequel to Jujutsu Kaisen (2020), where a high schooler gains control of an extremely powerful cursed spirit and gets enrolled in the Tokyo Prefectural Jujutsu High School by Jujutsu Sorcerers.",
+        "poster": "https://upload.wikimedia.org/wikipedia/en/7/77/Gekij%C5%8D-ban_Jujutsu_Kaisen_0.png",
+        "id": "1631614",
+        "imbd":"tt14331144"
+    },
+    {
+        "name": "Scream",
+        "services": ["Hulu", "Paramount+","Amazon Prime"],
+        "summary": "A year after the murder of her mother, a teenage girl is terrorized by a masked killer who targets her and her friends by using scary movies as part of a deadly game.",
+        "poster": "https://upload.wikimedia.org/wikipedia/en/8/86/Scream_%281996_film%29_poster.jpg",
+        "id": "1336403",
+        "imbd":"tt0117571"
+    }
+]
